@@ -35,11 +35,11 @@ const Index = () => {
         <Box w="full" p={4} borderWidth="1px" borderRadius="lg">
           <VStack spacing={4}>
             <Heading as="h2" size="lg">
-              RAD AI Omni
+              RAD Report Generator
             </Heading>
-            <Text fontSize="md">Leverage the full capability of AI to analyze and interpret radiology images.</Text>
-            <Button leftIcon={<FaSearch />} colorScheme="purple" size="lg">
-              Analyze Image
+            <Text fontSize="md">Streamline your radiology reports by generating and completing drafts based on existing data.</Text>
+            <Button leftIcon={<FaMagic />} colorScheme="purple" size="lg">
+              Generate Report
             </Button>
           </VStack>
         </Box>
